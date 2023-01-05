@@ -1,4 +1,4 @@
-package com.gcp.getway.util;
+package com.gcp.gateway.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;

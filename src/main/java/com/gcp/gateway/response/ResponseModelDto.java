@@ -1,4 +1,4 @@
-package com.gcp.getway.response;
+package com.gcp.gateway.response;
 
 import java.io.Serializable;
 

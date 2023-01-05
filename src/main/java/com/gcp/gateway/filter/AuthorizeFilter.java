@@ -1,10 +1,10 @@
-package com.gcp.getway.filter;
+package com.gcp.gateway.filter;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.gcp.getway.config.RedisCache;
-import com.gcp.getway.response.CommonException;
-import com.gcp.getway.util.JwtUtil;
+import com.gcp.gateway.config.RedisCache;
+import com.gcp.gateway.response.CommonException;
+import com.gcp.gateway.util.JwtUtil;
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;

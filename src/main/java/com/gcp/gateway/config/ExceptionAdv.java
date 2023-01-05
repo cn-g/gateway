@@ -1,7 +1,7 @@
-package com.gcp.getway.config;
+package com.gcp.gateway.config;
 
-import com.gcp.getway.response.CommonException;
-import com.gcp.getway.response.ResponseModels;
+import com.gcp.gateway.response.CommonException;
+import com.gcp.gateway.response.ResponseModels;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

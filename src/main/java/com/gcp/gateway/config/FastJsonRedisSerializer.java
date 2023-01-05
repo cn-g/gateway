@@ -1,4 +1,4 @@
-package com.gcp.getway.config;
+package com.gcp.gateway.config;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.ParserConfig;

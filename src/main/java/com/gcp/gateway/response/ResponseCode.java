@@ -1,4 +1,4 @@
-package com.gcp.getway.response;
+package com.gcp.gateway.response;
 
 /**
  * 自定义响应枚举

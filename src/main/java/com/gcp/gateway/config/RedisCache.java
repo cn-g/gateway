@@ -1,4 +1,4 @@
-package com.gcp.getway.config;
+package com.gcp.gateway.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.BoundSetOperations;

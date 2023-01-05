@@ -1,11 +1,11 @@
-package com.gcp.getway.config;
+package com.gcp.gateway.config;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gcp.getway.response.CommonException;
-import com.gcp.getway.response.ResponseCode;
-import com.gcp.getway.response.ResponseModelDto;
-import com.gcp.getway.response.ResponseModels;
+import com.gcp.gateway.response.CommonException;
+import com.gcp.gateway.response.ResponseCode;
+import com.gcp.gateway.response.ResponseModelDto;
+import com.gcp.gateway.response.ResponseModels;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.reactive.error.ErrorWebExceptionHandler;
 import org.springframework.core.annotation.Order;

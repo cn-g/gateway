@@ -1,4 +1,4 @@
-package com.gcp.getway.response;
+package com.gcp.gateway.response;
 
 /**
  * 封装返回结果

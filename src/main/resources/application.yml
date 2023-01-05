@@ -2,7 +2,7 @@ server:
   port: 8700
 spring:
   application:
-    name: geteway
+    name: gateway
   profiles:
     active: dev
   redis:

@@ -1,4 +1,4 @@
-package com.gcp.getway;
+package com.gcp.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
