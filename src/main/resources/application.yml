@@ -1,0 +1,30 @@
+server:
+  port: 8700
+spring:
+  application:
+    name: geteway
+  profiles:
+    active: dev
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.56.1:8848
+        group: DEFAULT_GROUP
+    gateway:
+      discovery:
+        locator:
+          # 开启从注册中心动态创建路由的功能，利用微服务名称进行路由
+          enabled: true
+      routes:
+          # id,自定义，不可重复
+        - id: security_route
+          # 转发服务名,nacos中待调用的服务名称
+          uri: lb://security
+          # 路由规则
+          predicates:
+            - Path=/security/**
+          filters:
+            - StripPrefix=1

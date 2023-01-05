@@ -1,2 +1,2 @@
 # gateway
-gateway网关使用
+spring-cloud-gateway网关的使用
