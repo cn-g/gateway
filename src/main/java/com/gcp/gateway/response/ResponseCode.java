@@ -7,7 +7,9 @@ package com.gcp.gateway.response;
  */
 public enum ResponseCode {
 
-    OK(200, "OK", "OK"), CommonException(503, "业务异常", "Common Exception"), NOPOWER(403, "权限不足", "No Power"),
+    OK(200, "OK", "OK"),
+    CommonException(503, "业务异常", "Common Exception"),
+    NOPOWER(403, "权限不足", "No Power"),
     LOGINEXCEPTION(402, "认证失败", "LOGIN ERROR");
 
     private int errorCode;
